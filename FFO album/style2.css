@@ -617,7 +617,7 @@ html, body{
 
   pointer-events:none;
 
-  top:50px;
+  top:100px;
 
   transition:0.8s;
 }
@@ -691,6 +691,16 @@ html, body{
   transition-delay:0.3s;
 }
 
+.stickers-container.show .reveal-card:nth-child(4){
+  transform:
+    translateY(-60px)
+    rotate(12deg);
+
+  opacity:1;
+
+  transition-delay:0.3s;
+}
+
 /* BUTTONS */
 
 .buttons{
@@ -746,6 +756,7 @@ button:hover{
   .pack{
     width:200px;
     height:330px;
+    padding-top: 20px;
   }
 
   .pack-tear{
@@ -754,15 +765,18 @@ button:hover{
 
   .pack-content h1{
     font-size:34px;
+  
   }
 
   .stickers-container{
-    gap:10px;
+    gap:20px;
+    padding-top: 30px
   }
 
   .reveal-card{
     width:95px;
     height:150px;
+    
   }
 
   button{
@@ -830,3 +844,23 @@ button:hover{
   font-size:12px;
 }
 
+
+.section-image{
+
+  width:100%;
+  max-width:650px;
+
+  height:400px;
+
+  border-radius:32px;
+
+  object-fit:cover;
+
+  object-position:center;
+
+  border:1px solid rgba(59,130,246,0.25);
+
+  box-shadow:
+    0 0 40px rgba(37,99,235,0.12);
+
+}
