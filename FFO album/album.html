@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - FFO</title>
+
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+  <!-- GLOWS -->
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
+  <!-- HEADER -->
+  <header>
+
+    <!-- LOGO -->
+    <div class="logo">
+        <img class="logo" src="logo.png" alt="Logo do FFO">
+    </div>
+
+    <!-- MENU -->
+    <nav>
+      <a  href="Projeto.html">Projeto</a>
+      <a  href="QuemSomos.html">Quem Somos</a>
+      <a class="active" href="Pacotes.html">Álbum</a>
+    </nav>
+
+    <!-- RIGHT SIDE -->
+<a href="perfil.html">
+    <div class="header-right">
+
+      <!-- PERFIL -->
+      <div class="profile">
+
+        <div class="profile-icon"></div>
+
+        <span>Convidado</span>
+
+      
+      </div>
+
+
+    </div>
+
+    </a>
+
+  </header>
+<!-- MAIN CONTENT -->
+<main class="main-content">
+
+  <!-- GLOWS -->
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
+
+  <div class="book-scene">
+    <div class="book" id="book">
+ 
+      <!-- ════════════════════════════════════════
+           SPREAD 0 — Capa + Primeira página
+      ════════════════════════════════════════ -->
+      <div class="spread active" data-spread="0">
+        <div class="page left" style="background: linear-gradient(135deg, #1a3a5c, #0d1f3c); display:flex; align-items:center; justify-content:center; flex-direction:column; gap:12px;">
+          <div style="font-size:28px; font-weight:bold; color:#fff; letter-spacing:0.1em;">ÁLBUM</div>
+          <div style="font-size:13px; color:rgba(255,255,255,0.5); letter-spacing:0.2em; text-transform:uppercase;">Copa do Mundo</div>
+          <div style="width:60px; height:2px; background:rgba(255,255,255,0.2); margin-top:8px;"></div>
+          <div style="font-size:10px; color:rgba(255,255,255,0.3); letter-spacing:0.1em;">Sala 551</div>
+        </div>
+        <div class="page right">
+          <div class="page-title">Introdução</div>
+          <p class="page-text" style="margin-top:4px;">
+            Bem-vindo ao Álbum da Copa Online. Aqui você encontrará todas as figurinhas
+            da coleção, organizadas por páginas temáticas. Cole, colecione e troque com
+            seus colegas para completar seu álbum!
+          </p>
+          <div style="margin-top:16px; padding: 30px; margin-bottom: 16px; display:flex; flex-direction:column; gap:10px;">
+            <div class="card" id="card-special-1" style="aspect-ratio:16/7; border: radius 20px; background:#c8c6c0;">
+              <span>Banner Especial</span>
+              <span class="card-number">#S1</span>
+            </div>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+              <div class="card" id="card-special-2"><span>Especial</span><span class="card-number">#S2</span></div>
+              <div class="card" id="card-special-3"><span>Especial</span><span class="card-number">#S3</span></div>
+            </div>
+          </div>
+          <span class="page-num">1</span>
+        </div>
+      </div>
+ 
+      <!-- ════════════════════════════════════════
+           SPREAD 1 — Grupo A
+      ════════════════════════════════════════ -->
+      <div class="spread" data-spread="1">
+        <div class="page left">
+          <div class="page-title">Grupo A</div>
+          <div class="cards-grid layout-2x3" style="padding: 10px; display: flex; flex-direction: column; justify-content: space-around;;">
+
+
+
+        <div style="display: flex; flex-direction: row; ">
+           
+
+            <div style="display: flex; margin-right: 20px;  flex-direction: row; justify-content: flex-start;">
+            <div style="display: flex;  justify-content: flex-start;  height: 200px;">
+            <div class="card" id="card-001"><span>001</span><span class="card-number">#001</span></div>
+            </div>
+            </div>
+             <p style="font-size: 11px; font-family: inherit; font-weight: bold; color: #414141;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita officiis velit reprehenderit ullam dolorem itaque tenetur. Culpa eum unde, rem expedita tempore neque sequi officiis omnis, maiores in facere praesentium?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique dicta, deserunt iure recusandae, obcaecati voluptates culpa impedit ullam qui fugiat exercitationem doloremque molestiae magnam ex placeat. Ratione, maiores rerum! Blanditiis.
+             </p>
+        </div>
+
+        <div style="display: flex; flex-direction: row; margin-top: 10px;">
+             <p style="font-size: 11px;  font-family: inherit; font-weight: bold; color: #414141;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita officiis velit reprehenderit ullam dolorem itaque tenetur. Culpa eum unde, rem expedita tempore neque sequi officiis omnis, maiores in facere praesentium?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique dicta, deserunt iure recusandae, obcaecati voluptates culpa impedit ullam qui fugiat exercitationem doloremque molestiae magnam ex placeat. Ratione, maiores rerum! Blanditiis.
+             </p>
+            <div style="display: flex; flex-direction: row; justify-content: flex-end;">
+            <div style="display: flex; justify-content: flex-end; height: 200px;">
+            <div class="card" id="card-002"><span>002</span><span class="card-number">#002</span></div>
+            </div>
+            </div>
+
+        </div>
+          </div>
+          <span class="page-num">2</span>
+        </div>
+
+
+        
+
+    <div class="page right coluna">
+        <DIV >
+          <div class="page-title">Grupo A — Destaques</div>
+                        <div class="card" id="card-003"><span>003</span><span class="card-number">#003</span></div>
+
+          <div  class="mixed-layout" style="height: 200px; width: 400px;">
+           
+
+
+            <div class="text-col">
+              
+             
+            </div>
+            <p class="page-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, nesciunt excepturi provident quibusdam blanditiis doloribus delectus cum eligendi soluta placeat, nostrum temporibus commodi autem. Pariatur voluptate voluptates ex fuga, enim iusto nobis dignissimos officia ipsa, itaque odit totam quaerat voluptas aliquam corrupti nam at eveniet ipsum laudantium dolorum. Perferendis, assumenda?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, nesciunt excepturi provident quibusdam blanditiis doloribus delectus cum eligendi soluta placeat, nostrum temporibus commodi autem. Pariatur voluptate voluptates ex fuga, enim iusto nobis dignissimos officia ipsa, itaque odit totam quaerat voluptas aliquam corrupti nam at eveniet ipsum laudantium dolorum. Perferendis, assumenda
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, nesciunt excepturi provident quibusdam blanditiis doloribus delectus cum eligendi soluta placeat, nostrum temporibus commodi autem. Pariatur voluptate voluptates ex fuga, enim iusto nobis dignissimos officia ipsa, itaque odit totam quaerat voluptas aliquam corrupti nam at eveniet ipsum laudantium dolorum. Perferendis, assumenda
+                                
+
+              </p>
+    </div>
+
+          <span class="page-num">3</span>
+        </div>
+         </DIV>
+    </div>
+   
+ 
+      <!-- ════════════════════════════════════════
+           SPREAD 2 — Grupo B
+      ════════════════════════════════════════ -->
+      <div class="spread" data-spread="2">
+        <div class="page left">
+          <div class="page-title">Grupo B</div>
+          <div class="cards-grid layout-3x2" style="height: calc(100% - 30px);">
+            <div class="card" id="card-010"><span>010</span><span class="card-number">#010</span></div>
+            <div class="card" id="card-011"><span>011</span><span class="card-number">#011</span></div>
+            <div class="card" id="card-012"><span>012</span><span class="card-number">#012</span></div>
+            <div class="card" id="card-013"><span>013</span><span class="card-number">#013</span></div>
+            <div class="card" id="card-014"><span>014</span><span class="card-number">#014</span></div>
+            <div class="card" id="card-015"><span>015</span><span class="card-number">#015</span></div>
+          </div>
+          <span class="page-num">4</span>
+        </div>
+        <div class="page right">
+          <div class="page-title">Grupo B — Destaques</div>
+          <div class="cards-grid layout-2x2" style="height: calc(100% - 30px);">
+            <div class="card" id="card-016"><span>016</span><span class="card-number">#016</span></div>
+            <div class="card" id="card-017"><span>017</span><span class="card-number">#017</span></div>
+            <div class="card" id="card-018"><span>018</span><span class="card-number">#018</span></div>
+            <div class="card" id="card-019"><span>019</span><span class="card-number">#019</span></div>
+          </div>
+          <span class="page-num">5</span>
+        </div>
+      </div>
+ 
+      <!-- ════════════════════════════════════════
+           SPREAD 3 — Adicione mais spreads abaixo
+           Copie o bloco acima e altere:
+           - data-spread="N" (incrementar)
+           - IDs dos cards (card-020, card-021...)
+           - Título da página
+           - Layout desejado (layout-2x3, layout-3x2, etc)
+      ════════════════════════════════════════ -->
+ 
+    </div>
+ 
+    <!-- Spine do livro -->
+    <div class="book-spine"></div>
+ 
+    <!-- Wrapper da animação de virar -->
+    <div class="flip-wrapper" id="flipWrapper">
+      <div class="flip-leaf" id="flipLeaf">
+        <div class="leaf-front"></div>
+        <div class="leaf-back"></div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controles de navegação -->
+  <div class="controls">
+    <button class="btn-nav" id="btnPrev" disabled>&#8592;</button>
+    <span class="page-indicator" id="pageIndicator">1 / 3</span>
+    <button class="btn-nav" id="btnNext">&#8594;</button>
+  </div>
+ 
+  <script>
+    const spreads   = document.querySelectorAll('.spread');
+    const btnPrev   = document.getElementById('btnPrev');
+    const btnNext   = document.getElementById('btnNext');
+    const indicator = document.getElementById('pageIndicator');
+    const flipLeaf  = document.getElementById('flipLeaf');
+    let current = 0;
+    let animating = false;
+ 
+    function updateUI() {
+      indicator.textContent = `${current + 1} / ${spreads.length}`;
+      btnPrev.disabled = current === 0;
+      btnNext.disabled = current === spreads.length - 1;
+    }
+ 
+    function goTo(next, direction) {
+      if (animating) return;
+      animating = true;
+ 
+      const from = spreads[current];
+      const to   = spreads[next];
+ 
+      // Prepara a folha de animação
+      flipLeaf.className = 'flip-leaf';
+      flipLeaf.style.display = 'block';
+ 
+      if (direction === 'forward') {
+        flipLeaf.classList.add('flipping-forward');
+      } else {
+        flipLeaf.classList.add('flipping-backward');
+      }
+ 
+      // Troca a página visível no meio da animação
+      setTimeout(() => {
+        from.classList.remove('active');
+        to.classList.add('active');
+        current = next;
+        updateUI();
+      }, 300);
+ 
+      // Limpa animação
+      setTimeout(() => {
+        flipLeaf.style.display = 'none';
+        flipLeaf.className = 'flip-leaf';
+        animating = false;
+      }, 620);
+    }
+ 
+    btnNext.addEventListener('click', () => {
+      if (current < spreads.length - 1) goTo(current + 1, 'forward');
+    });
+ 
+    btnPrev.addEventListener('click', () => {
+      if (current > 0) goTo(current - 1, 'backward');
+    });
+ 
+    // Teclas de seta
+    document.addEventListener('keydown', e => {
+      if (e.key === 'ArrowRight') btnNext.click();
+      if (e.key === 'ArrowLeft')  btnPrev.click();
+    });
+ 
+    updateUI();
+  </script>
+
+
+
+
+  </main>
+
+</body>
+</html>
+
+</main>
+</body>
+</html>
