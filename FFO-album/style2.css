@@ -271,6 +271,32 @@ nav .active{
   transition:0.3s;
 }
 
+
+.special-sticker2{
+    width:165px;
+    height:220px;
+
+  border-radius:28px;
+  margin-right: 40px;
+  margin-left: 40px;
+
+  background:linear-gradient(
+    135deg,
+    rgba(37,99,235,0.18),
+    rgba(103,232,249,0.12)
+  );
+
+  border:1px solid rgba(103,232,249,0.35);
+
+  backdrop-filter:blur(14px);
+
+  box-shadow:
+    0 20px 80px rgba(0,0,0,0.35),
+    0 0 60px rgba(37,99,235,0.25);
+
+  transition:0.3s;
+}
+
 .special-sticker:hover{
   transform:translateY(-8px);
 
@@ -863,4 +889,22 @@ button:hover{
   box-shadow:
     0 0 40px rgba(37,99,235,0.12);
 
+}
+
+.ffo1{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100%;
+
+
+}
+
+.ffo2{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 20px;
 }
